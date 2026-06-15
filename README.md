@@ -9,11 +9,11 @@
 ## 🛰 Ключевые проекты
 
 ### [Arctic SAR Super-Resolution](https://github.com/Sergei703/SR_SAR)
-> ВКР по заказу **Гринатом** (дочерняя структура Росатома) · 2024–2025
+> ВКР по заказу **Гринатом** (дочерняя структура Росатома) · 2025–2026
 
 Каскад из 5 генераторов Real-ESRGAN для повышения разрешения спутниковых SAR-снимков Арктики в **×32** (32 → 1024 пкс).  
 Итог: **PSNR = 29.88 дБ**, SSIM = 0.774 (гибридная схема Real-ESRGAN + дообученный диффузионный PDM_SAR_inSAR).  
-Веса 5 моделей опубликованы на 🤗 [Hugging Face](https://huggingface.co/Azhits/arctic-sar-sr-models).
+Веса 8 моделей опубликованы на 🤗 [Hugging Face](https://huggingface.co/Azhits/arctic-sar-sr-models).
 
 `PyTorch` `Real-ESRGAN` `DDPM/DDIM` `OpenCV` `GeoTIFF` `FastAPI`
 
